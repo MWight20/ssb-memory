@@ -1,38 +1,203 @@
-.App {
+html, body {
   text-align: center;
+  background-color:#282c34;
+  background-image: url(../public/img/ssbm-wallpaper-saturated-square.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  width: 100%;
+  height: 100%;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  position: fixed;
+  height: 90px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Timer */
+.timer {
+  color: white;
+  font-size: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Gameboard css*/
+.GameBoard-container {
+  margin: 1% auto 1% auto;
+  background-color: #282c34;
+  opacity: 90%;
+  height: 1100px;
+  width: 1000px;
+  align-items: center;
+  text-align: center;
+
+}
+
+.GameBoard-content{
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.GameBoard-score{
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.GameBoard-title {
+  margin-bottom: 5px;
+  text-align: center;
+  color: white;
+}
+
+.GameBoard-menu {
+  color: white;
+}
+
+.GameBoard-menu p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.startGame-btn {
+  background-color: #181a1f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.cardTile {
+  border:#425a8a solid 1px;
+  max-width: 140px;
+  max-height: 140px;
+  width: 180px;
+  height: 180px;
+  margin: 15px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+}
+
+.cardTile:hover {
+  opacity: 65%;
+}
+
+
+/* character tile css */
+
+.cardBack {
+  background: url(../public/img/Smash_ball.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotateY(180deg);
+}
+
+.cardFrontCaptain_Falcon {
+  background: url(../public/img/Captain_Falcon.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontDonkey_Kong {
+  background: url(../public/img/Donkey_Kong.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontFalco {
+  background: url(../public/img/Falco.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontFox {
+  background: url(../public/img/Fox.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontKirby {
+  background: url(../public/img/Kirby.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontLink {
+  background: url(../public/img/Link.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontLuigi {
+  background: url(../public/img/Luigi.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontMario {
+  background: url(../public/img/Mario.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontNess {
+  background: url(../public/img/Ness.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontPikachu {
+  background: url(../public/img/Pikachu.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontRoy {
+  background: url(../public/img/Roy.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontSamus {
+  background: url(../public/img/Samus.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardFrontredx {
+  background: url(../public/img/redx.png);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
