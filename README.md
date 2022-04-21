@@ -9,6 +9,7 @@ This project was built using React.JS
 ## Running the project
 Once opened to the project's file location, in the command line:
 
+`npm install`
 `npm start`
 
 Runs the app in the development mode.\
