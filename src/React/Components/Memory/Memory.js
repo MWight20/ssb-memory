@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Card.js'
-import Timer from './Timer.js'
+import Card from '../Card/Card.js'
+import Timer from '../Timer/Timer.js'
 
 /*  
 *    Memory.js:

@@ -1,5 +1,6 @@
-import './App.css';
-import Memory from './Memory.js';
+//import './App.css';
+import '../../Styles/App.css';
+import Memory from './Memory/Memory.js';
 import React, {useState, useEffect} from "react";
 
 /*
@@ -69,9 +70,9 @@ function App() {
     <div className="App">
       <div className="GameBoard-container">
       <h1 className="GameBoard-title">
-        <img style={{width: "50px"}} src="/img/Smash_ball.png" alt="smash_ball_logo"></img>
+        <img className="smash-ball-logo" alt="smash_ball_logo"></img>
           Super Smash Brothers Memory Game
-        <img style={{width: "50px"}} src="/img/Smash_ball.png" alt="smash_ball_logo"></img>
+        <img className="smash-ball-logo" alt="smash_ball_logo"></img>
       </h1>
         {options  ? (
           <Memory 
