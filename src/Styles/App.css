@@ -1,7 +1,7 @@
 html, body {
   text-align: center;
   background-color:#282c34;
-  background-image: url(../public/img/ssbm-wallpaper-saturated-square.png);
+  background-image: url(../React//Images/ssbm-wallpaper-saturated-square.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -104,7 +104,7 @@ html, body {
 /* character tile css */
 
 .cardBack {
-  background: url(../public/img/Smash_ball.png);
+  background: url(../React/Images/Smash_ball.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,92 +112,101 @@ html, body {
 }
 
 .cardFrontCaptain_Falcon {
-  background: url(../public/img/Captain_Falcon.png);
+  background: url(../React/Images/Captain_Falcon.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontDonkey_Kong {
-  background: url(../public/img/Donkey_Kong.png);
+  background: url(../React/Images/Donkey_Kong.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontFalco {
-  background: url(../public/img/Falco.png);
+  background: url(../React/Images/Falco.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontFox {
-  background: url(../public/img/Fox.png);
+  background: url(../React/Images/Fox.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontKirby {
-  background: url(../public/img/Kirby.png);
+  background: url(../React/Images/Kirby.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontLink {
-  background: url(../public/img/Link.png);
+  background: url(../React/Images/Link.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontLuigi {
-  background: url(../public/img/Luigi.png);
+  background: url(../React/Images/Luigi.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontMario {
-  background: url(../public/img/Mario.png);
+  background: url(../React/Images/Mario.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontNess {
-  background: url(../public/img/Ness.png);
+  background: url(../React/Images/Ness.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontPikachu {
-  background: url(../public/img/Pikachu.png);
+  background: url(../React/Images/Pikachu.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontRoy {
-  background: url(../public/img/Roy.png);
+  background: url(../React/Images/Roy.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontSamus {
-  background: url(../public/img/Samus.png);
+  background: url(../React/Images/Samus.png);
   background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .cardFrontredx {
-  background: url(../public/img/redx.png);
+  background: url(../React/Images/redx.png);
   background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.smash-ball-logo {
+  background: url(../React/Images/Smash_ball.png);
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
