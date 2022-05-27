@@ -47,6 +47,7 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .GameBoard-score{
@@ -60,6 +61,18 @@ html, body {
   margin-bottom: 5px;
   text-align: center;
   color: white;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  
+}
+
+#left-sb-logo {
+  flex: 1;
+}
+
+#right-sb-logo {
+  flex: 1;
 }
 
 .GameBoard-menu {

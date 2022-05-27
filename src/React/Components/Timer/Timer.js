@@ -1,5 +1,17 @@
 import React from "react";
-  
+
+export const StartTimer = (isActive, isPaused) => {
+  let interval = null;
+    if (isActive && isPaused === false) {
+        interval = setInterval(() => {
+            return ((t) => t + 10);
+        }, 10);
+    }
+    return () => {
+    clearInterval(interval);
+    };
+}
+
 /*  
 *    url: https://www.geeksforgeeks.org/create-a-stop-watch-using-reactjs/
 *           -> I referenced code from here to render the correct Minutes and Seconds digits
